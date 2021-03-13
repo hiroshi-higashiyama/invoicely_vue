@@ -16,6 +16,9 @@
             <router-link to="/dashboard/clients" class="navbar-item"
               >Clients</router-link
             >
+            <router-link to="/dashboard/invoices" class="navbar-item"
+              >Invoices</router-link
+            >
 
             <div class="navbar-item">
               <div class="buttons">
@@ -56,6 +59,7 @@
 
 <script>
 import axios from "axios";
+
 export default {
   nama: "App",
   beforeCreate() {
